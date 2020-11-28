@@ -13,11 +13,11 @@ var stat_palyer = {
 		"mana_potions" : 0
 	}
 
-var current_scene = null
+#var current_scene = null
 
-func _ready():
-	var root = get_tree().get_root()
-	current_scene = root.get_child(root.get_child_count() - 1)
+#func _ready():
+#	var root = get_tree().get_root()
+#	current_scene = root.get_child(root.get_child_count() - 1)
  
 func goto_scene(path):
 	get_node("/root/Root").queue_free()

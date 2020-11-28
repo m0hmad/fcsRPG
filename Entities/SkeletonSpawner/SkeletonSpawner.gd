@@ -18,6 +18,8 @@ func _ready():
 	# Get tilemaps references
 	tilemap = get_tree().root.get_node("Root/TileMap")
 	tree_tilemap = get_tree().root.get_node("Root/TreeTileMap")
+	print(tilemap) #debag
+	print(tree_tilemap) #debag
 	
 	# Initialize random number generator
 	rng.randomize()

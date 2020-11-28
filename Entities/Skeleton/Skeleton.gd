@@ -34,6 +34,8 @@ func _ready():
 	player = get_tree().root.get_node("Root/Player")
 	rng.randomize()
 	
+	print(player) #debag
+	
 func _process(delta):
 	# Regenerates health
 	health = min(health + health_regeneration * delta, health_max)

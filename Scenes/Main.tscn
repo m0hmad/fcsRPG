@@ -42,7 +42,7 @@ position = Vector2( 129.536, 26.9329 )
 position = Vector2( 750, 120 )
 
 [node name="Necklace" parent="." instance=ExtResource( 49 )]
-position = Vector2( 17.6134, 324.626 )
+position = Vector2( 503.944, 246.62 )
 scale = Vector2( 0.3, 0.3 )
 
 [node name="House" parent="." instance=ExtResource( 57 )]
